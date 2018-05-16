@@ -1,16 +1,19 @@
 # Site settings
+source: .  #改变 Jekyll 读取文件的目录
+destination: ./_site  #改变 Jekyll 写入文件的目录
+
 title: 异常之家 # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
 description: "这是我的博客"  # 一句话描述你的博客
 baseurl: ""
 url: "http://www.zfcgz.com"  # 此处填写你的博客地址 
-
+permalink:
 # About/contact
 owner: 
   name: "龙黑" # 填写作者信息：名字
   email: 790553505@qq.com # 填写作者信息：邮箱
-  bio: "异常，是初学者头疼之事，我想手机总结一下，希望有所帮助" # 填写作者信息：博客描述
+  bio: "异常，是初学者头疼之事，我想收集总结一下，希望有所帮助" # 填写作者信息：博客描述
 
 # Data
 gavatar: img/favicon.png # 浏览器地址栏小图标，可自定义更改
@@ -33,7 +36,8 @@ paginate: 8
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone: Asia/Shanghai
+#gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
+timezone: null #Asia/Shanghai
 
 # Defaults for posts
 defaults:
@@ -62,4 +66,6 @@ bing_verify:
 
 # Links to include in footer navigation
 
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+#gems: 'wdm', '~> 0.1.1' if Gem.win_platform?
+#gems: [jekyll-paginate]
