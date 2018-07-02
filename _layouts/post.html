@@ -5,7 +5,7 @@ layout: default
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
+        background-image: url('{{ site.baseurl }}{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')
     }
 </style>
 <header class="intro-header" >
@@ -109,8 +109,8 @@ layout: default
         repo: 'https://github.com/longhei/blog.io',
         oauth: {
             client_id: 'df4753110e240fbe9875',
-            client_secret: 'de8fd096a0ba62c982a2aaee28293cfd54072b7d',
-        },
+            client_secret: 'de8fd096a0ba62c982a2aaee28293cfd54072b7d'
+        }
     });
     gitment.render('gitmentContainer');
 </script>
