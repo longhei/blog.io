@@ -6,7 +6,7 @@ title: 异常之家 # 你的博客名字，可以定义修订
 header-img: "img/green.jpg"
 tagline: "cn"  
 description: "这是我的博客"  # 一句话描述你的博客
-baseurl: "/blog"
+baseurl: ""
 url: "http://www.zfcgz.com"  # 此处填写你的博客地址 
 permalink:
 # About/contact
