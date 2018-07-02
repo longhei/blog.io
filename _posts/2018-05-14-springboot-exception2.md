@@ -1,9 +1,9 @@
 ---
 layout: post
-title:[ springboot启动报错 java.lang.IllegalStateException: Failed to introspect annotated methods on class org ]
+title:[ java.lang.IllegalStateException: Failed to introspect annotated methods on class org ]
 date: 2018-05-14
 categories: blog
-tags: [IllegalStateException, startup]
+tags: [IllegalStateException, 启动报错，springboot]
 description: springboot启动异常处理
 ---
 
