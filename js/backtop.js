@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 
     // hide #back-top first
     $("#back-top").hide();

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: [Spring Boot报错：This application has no explicit mapping ... a fallback]
+title: springboot访问异常
 date: 2018-05-13
 categories: blog
-tags: [application]
-description: springboot访问异常处理
+tags: [springboot访问异常, springboot]
+description: springboot访问异常处理Spring Boot报错：This application has no explicit mapping ... a fallback
 ---
 启动spring boot然后访问页面的时候，出现如下错误。  
 

@@ -1,10 +1,10 @@
 ---
 layout: post
-title:[ java.lang.IllegalStateException: Failed to introspect annotated methods on class org ]
+title: springboot启动异常
 date: 2018-05-14
 categories: blog
 tags: [IllegalStateException, 启动报错，springboot]
-description: springboot启动异常处理
+description: "springboot启动异常 java.lang.IllegalStateException: Failed to introspect annotated methods on class org"
 ---
 
 idea启动springboot +maven项目报错： 
@@ -43,7 +43,7 @@ Caused by: java.lang.NoClassDefFoundError: javax/servlet/ServletContext
     at java.lang.Class.getDeclaredMethods(Class.java:1860)  
     at org.springframework.core.type.StandardAnnotationMetadata.getAnnotatedMethods(StandardAnnotationMetadata.java:152)  
     ... 16 common frames omitted  
-Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContext  
+Caused by: java.lang.ClassNotFoundException: javax.servlet.ServletContext   
     at java.net.URLClassLoader$1.run(URLClassLoader.java:366)  
     at java.net.URLClassLoader$1.run(URLClassLoader.java:355)  
     at java.security.AccessController.doPrivileged(Native Method)  
@@ -61,4 +61,4 @@ Process finished with exit code 1
 
 pom.xml中的
 
-In maven, I changed the scope like this: <scope>provided</scope> to <scope>compile</scope> and it worked!!.
+In maven, I changed the scope like this: &lt;scope&gt;provided</scope> to &lt;scope>compile</scope> and it worked!!.
