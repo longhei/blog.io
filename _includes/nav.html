@@ -16,11 +16,11 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="{{ site.baseurl }}/">首页</a>
+                    <a href="{{ site.baseurl }}/"><h4>首页</h4></a>
                 </li>
                 {% for page in site.pages %}{% if page.title %}
                 <li>
-                    <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                    <a href="{{ page.url | prepend: site.baseurl }}"><h4>{{ page.title }}</h4></a>
                 </li>
                 {% endif %}{% endfor %}
             </ul>

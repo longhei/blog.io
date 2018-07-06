@@ -2,13 +2,13 @@
 layout: post
 title: springboot访问异常
 date: 2018-05-13
-categories: blog
+categories: exception
 tags: [springboot访问异常, springboot]
 description: springboot访问异常处理Spring Boot报错：This application has no explicit mapping ... a fallback
 ---
 启动spring boot然后访问页面的时候，出现如下错误。  
 
-Whitelabel Error Page
+**Whitelabel Error Page**
 
 
 This application has no explicit mapping for /error, so you are seeing this as a fallback.
